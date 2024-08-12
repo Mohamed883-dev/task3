@@ -1,0 +1,74 @@
+body {
+  background-image:linear-gradient(to right, #01022d 30%, #000) ;
+  background-image: url("https://ca-times.brightspotcdn.com/dims4/default/c1a61d9/2147483647/strip/true/crop/3840x2160+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F03%2F0d%2F44d557194a8db3da6f4536cc2f30%2Favtr-226.jpg");
+  background-size: cover;
+  color: white;
+  
+  
+}
+
+ 
+a{
+  color: white;
+  text-decoration: none;
+}
+.logo{
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.nav-bar {
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  
+}
+
+ul a{
+  border-bottom: 2px solid transparent;
+}
+
+ul a:hover{
+  border-bottom-color: white;
+}
+
+.body-info{
+  margin: 100px 60px;
+  width: 50%;
+
+
+}
+
+.body-info h1{
+  font-size: 80px;
+}
+
+.body-info p{
+  letter-spacing: 1px;
+  width: 400px;
+  font-size: 20px;
+  
+}
+
+.body-info button{
+  padding: 12px 40px;
+  margin-top:30px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  border: 2px solid transparent;
+}
+.body-info button:hover{
+  border-color: white;
+  color :white;
+  background-color: transparent;
+}
